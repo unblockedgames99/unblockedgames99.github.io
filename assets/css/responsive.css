@@ -1,855 +1,1058 @@
-@media (max-width: 1399px) {
-  .about-section .ar {
-    width: 500px;
-    right: -150px;
-  }
+/*================ Normal desktop :992px.==================== */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+	* {
+        cursor: default !important
+    }
+    a, button{
+        cursor: pointer !important
+    }
+    #cursor-large{
+        display:none
+    }
+    #cursor-small{
+        display:none
+    }
+    .games-desc{
+        padding: 15px
+    }
+    .game-action a.fag-btn-outline{
+        padding: 5px 15px
+    }
+    .game-price h4{
+        font-size: 18px
+    }
+    .post-small .blog-text{
+        padding: 15px
+    }
+    .post-info{
+        margin-top: 10px;
+        padding-top: 10px
+    }
+    .post-info li{
+        margin-right: 5px
+    }
+    .features-game{
+        padding: 40px
+    }
+    .match-details .matchcountdown h3{
+        font-size: 30px
+    }
+    .single-match-widget h3, .single-match-widget h4{
+        font-size: 22px
+    }
+    .tab-body h3{
+        font-size: 24px
+    }
+    .news-sidebar-item form button{
+        width: 22%
+    }
 }
 
-@media (max-width: 1199px) {
-  .features-section .s1,
-  .features-section .s2
-  {
-    display: none;
-  }
-  
-  .user-main-dashboard main .main-box .table-responsive {
-    overflow: auto;
-  }
 
-  .user-main-dashboard main .main-box .table-responsive table {
-    width: 690px;
-    margin: 0 auto;
-  }
-  .user-main-dashboard main .main-box.u-setting-area  .s-content-area .table-responsive table {
-    width: 100%;
-    margin: 0 auto;
-  }
+/*================ Tablet desktop :768px.==================*/
 
-
-  .header .mainmenu-area .navbar #main_menu .navbar-nav .nav-item .nav-link {
-    padding: 28px 10px;
-  }
-
-  .game-play-section .single-play {
-    margin-bottom: 30px;
-  }
-
-  .join_us .l-image {
-    position: unset;
-    bottom: auto;
-    left: auto;
-    margin: 0 auto;
-    display: block;
-  }
-
-  .join_us .section-heading {
-    margin-top: 50px;
-  }
-
-  .subscribe-box .left {
-    width: 190px;
-  }
-
-  .subscribe-box .right {
-    width: 190px;
-  }
-
-  .single-tikit .content .content-area .c-bottom .mybtn1 {
-    padding: 4px 10px;
-  }
-
-  .header .mainmenu-area.mainmenu-area2 .navbar #main_menu .navbar-brand {
-    width: auto;
-    height: auto;
-    position: unset;
-    display: block;
-  }
-
-  .header .mainmenu-area.mainmenu-area2 .navbar #main_menu .navbar-brand img.l2 {
-    height: 80px;
-    width: auto;
-    max-width: auto;
-    position: unset;
-    bottom: auto;
-  }
-
-  .header .mainmenu-area.mainmenu-area2 .navbar #main_menu .navbar-nav li .mybtn1 {
-    margin-top: 15px;
-    padding: 10px 20px;
-    margin-left: 10px;
-  }
-
-  .recent-winners .single-winner {
-    margin-bottom: 30px;
-  }
-
-  .breadcrumb-area h2 {
-    font-size: 50px;
-    line-height: 60px;
-  }
-
-  .breadcrumb-area {
-    padding: 240px 0px 90px;
-  }
-
-  .raffles-section .ad {
-    margin-top: 50px;
-  }
-
-  .raffles-section .ad img {
-    width: 100%;
-  }
-
-  .daily-contest .right-content {
-    margin-top: 30px;
-  }
-
-  .single-feature {
-    margin-bottom: 30px;
-  }
-
-  .team-section .single-team .image h4 {
-    bottom: -60px;
-  }
-
-  .team-section .single-team .image .link {
-    bottom: 30px;
-    right: 7%;
-  }
-
-  .ticket-page .ticket-cart-box {
-    margin-top: 40px;
-  }
-
-  .raffles-details .raffle-details h2 {
-    font-size: 28px;
-    line-height: 38px;
-  }
-
-  .games-details .details-wrapper {
-    display: block;
-  }
-
-  .games-details .details-wrapper .right-content .price-box {
-    margin-top: 40px;
-  }
-
+@media (min-width: 768px) and (max-width: 991px) {
+	
+    * {
+        cursor: default !important
+    }
+    a, button{
+        cursor: pointer !important
+    }
+    #cursor-large{
+        display:none
+    }
+    #cursor-small{
+        display:none
+    }
+    .menu-toggle{
+        cursor: pointer !important
+    }
+    .navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-toggler{
+        padding-right: 0
+    }
+    .fag-header{
+        padding: 15px 0
+    }
+    .fag-header.scroll{
+        padding: 10px 0
+    }
+    .navbar-brand img {
+        width: 75%;
+    }
+    .dropdown-menu {
+        display: none !important;
+        background: #080811 none repeat scroll 0 0 !important
+    }
+    .dropdown-menu.show {
+        display: block !important;
+        opacity: 1 !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+    }
+    .dropdown-menu {
+        position: static !important;
+        float: none !important;
+        opacity: 1 !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        margin-left: 50px;
+        width: auto !important;
+        background: #080811 !important;
+        border-radius: 5px !important
+    }
+    nav.navbar .nav-item {
+        z-index: 1 !important;
+        display: block;
+        margin: 0 8px;
+    }
+    nav.navbar .nav-link {
+        padding: 8px 7px;
+    }
+    .header_menu{
+        margin: 0
+    }
+    .navbar-collapse{
+        background: #0d0e1b !important;
+        margin-top: 5%;
+        border-radius: 5px;
+        height: 250px;
+        overflow-y: scroll
+    }
+    .dropdown-menu:before, .dropdown-menu:after{
+        display: none !important
+    }
+    .header-right {
+         margin: 0 8px;
+        display: block
+    }
+    .header-right > div{
+        margin-left: 0 !important
+    }
+    .header-right > div > a{
+        padding: 8px 7px
+    }
+    .fag-header.scroll .header_menu > li > a, .fag-header.scroll .header-right > div > a{
+        padding: 8px 7px
+    }
+    .search-block > .search-toggle{
+        font-size: 20px;
+        right: 0
+    }
+    .search-block > form{
+        width: 90%
+    }
+    .search-block input{
+        font-size: 20px;
+        height: 50px
+    }
+    .search-block form span{
+        font-size: 20px
+    }
+    .fag-main-slide{
+        height: 650px
+    }
+    .slider-text h2 {
+        font-size: 56px;
+        line-height: 60px;
+    }
+    .fag-video-inn{
+        width: 100%
+    }
+    .games-item{
+        width: 50%
+    }
+    .match-box-inn{
+        width: 100%
+    }
+    .matchcountdown li{
+        min-width: 65px
+    }
+    .matchcountdown li span{
+        font-size: 28px
+    }
+    .promo-box h3{
+        font-size: 42px
+    }
+    .promo-box p{
+        font-size: 18px
+    }
+    .post-small .blog-item:nth-child(2), .post-small .blog-item:nth-child(3) {
+        display: none;
+    }
+    .post-small .blog-image{
+        width: 100%;
+        border-radius: 18px
+    }
+    .post-small .blog-image img{
+        position: relative
+    }
+    .post-small .blog-text{
+        width: 100%;
+        padding: 20px 0 0;
+        background: transparent
+    }
+    .blog-text h3, .post-small .blog-text h3{
+        font-size: 28px
+    }
+    .post-small .blog-text p{
+        display: block
+    }
+    .counter-box h4{
+        font-size: 16px
+    }
+    .games-category {
+        margin-top: 50px;
+    }
+    .details-banner-action{
+        padding-left: 34%;
+        text-align: left
+    }
+    .single_game_price{
+        text-align: left;
+        padding-left: 34%
+    }
+    .tab-body h3{
+        font-size: 22px
+    }
+    .match-page-right {
+        width: 80%;
+        margin: 50px auto 0;
+    }
+    .news-sidebar-item form button{
+        width: 8%
+    }
+    .products-grid {
+        margin-top: 50px;
+    }
+    .product-details-text {
+        margin-top: 30px;
+    }
+    .product-panel-list .fag-comment-list, .product-panel-list .fag-leave-comment{
+        width: 100%
+    }
+    .checkout-left-box{
+        margin-bottom: 50px
+    }
+    .contact-form-inn{
+        width: 100%
+    }
+    .site-heading{
+        width: 100%
+    }
+    
+   
 }
 
-@media (max-width: 991px) {
-  .help-section aside{
-    margin-bottom: 40px;
-  }
-  .affiliate-box .referral-link-area .right{
-    margin-top: 30px;
-  }
-  .wallet-box .wallet-tab-content .dipo-box .dipo_btc{
-    margin-top: 30px;
-  }
-  #mycontainer aside input {
-    background-position: right;
-}
-#usermessage .modal-content .close {
-    color: #fff;
-    right: 20px;
-}
-#usermessage #mycontainer{
-    flex-wrap: wrap;
-    height: auto;
-}
-#usermessage #mycontainer #chat .me .triangle{
-    margin-left: auto;
-    margin-right: 10px;
-}
-#usermessage #mycontainer aside{
-    flex: 100%;
-    max-width: 100%;
-    height: 300px;
-    overflow: auto;
-    width: 100%!important;
-}
-#usermessage #mycontainer main{
-    flex: 100%;
-    width: 100%;
-    max-width: 100%; 
-    height: 400px;
-    overflow: auto;
-} 
-#usernotification .single-notification{
-  display: block;
-}
-#usernotification .single-notification .img{
-  margin-right: 0px;
-  margin-bottom: 15px;
-}
-  .user-main-dashboard main .main-box{
-    margin-top: 30px;
-  }
-  .raffles-details .raffles-ends-box {
-    margin-top: 40px;
-  }
 
-  .raffle-d-top-info .right-area {
-    display: block;
-    text-align: left;
-    margin-top: 20px;
-  }
-
-  .about-section .ar {
-    display: block;
-    position: unset;
-    top: auto;
-    left: auto;
-    margin-top: auto;
-    margin-right: auto;
-    transform: unset;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
-
-  .header .mainmenu-area .navbar .navbar-brand img {
-    max-height: 50px;
-  }
-
-  .header .mainmenu-area .navbar #main_menu .navbar-nav .nav-item .nav-link .mr-hover-effect {
-    display: none;
-  }
-
-  .header .mainmenu-area .navbar #main_menu .navbar-nav .nav-item .nav-link {
-    padding: 8px 10px;
-  }
-
-  .header .mainmenu-area .navbar .navbar-brand {
-    padding-left: 0px;
-  }
-
-  .header .top-header .content .left-content .left-list li p,
-  .header .top-header .content .right-content .right-list li .sign-in,
-  .header .top-header .content .right-content .right-list li i {
-    font-size: 14px;
-  }
-
-  .header .mainmenu-area .navbar {
-    padding: 8px 0px;
-  }
-
-  .section-heading .title,
-  .sh-wrpper .section-heading .title,
-  .contact-section .contact-area h2,
-  .bonuse-section .header-area h1,
-  .how-get-bonuse-section .section-heading .title
-  {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-  .section-heading .subtitle,
-  .sh-wrpper .section-heading .subtitle {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .section-heading .text,
-  .how-it-work .single-work p,
-  .funfact .single-fun p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-
-  .header .top-header .content .left-content .left-list li .language-selector .language {
-    font-size: 14px;
-  }
-
-  .header .top-header .content .left-content .left-list li::before,
-  .header .top-header .content .right-content .right-list li::before {
-    font-size: 14px;
-  }
-
-  .breadcrumb-area .title {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-
-
-  .header .mainmenu-area .navbar #main_menu .navbar-nav .nav-item .dropdown-menu {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-
-  div#main_menu .main-menu-inner {
-    height: 210px;
-    overflow-y: auto;
-  }
-
-  .header .mainmenu-area .navbar #main_menu .main-menu-inner {
-
-    display: block;
-  }
-
-  .header .mainmenu-area .navbar #main_menu.main-menu-inner .navbar-nav {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-  }
-
-  .marketing-tools .section-heading {
-    margin-bottom: 51px;
-  }
-
-  .header .mainmenu-area.mainmenu-area2 .navbar #main_menu .navbar-nav li .nav-link {
-    padding: 8px 15px;
-  }
-
-
-  .counter-box .content h4 {
-    font-size: 45px;
-    line-height: 55px;
-  }
-
-  .counter-section .counter-box {
-    margin-bottom: 30px;
-  }
-
-  .game-play-section .left-img,
-  .game-play-section .right-img,
-  .subscribe-box .left,
-  .subscribe-box .right {
-    display: none;
-  }
-
-  .md-pt-50 {
-    padding-top: 50px;
-  }
-
-  .s-h-play {
-    margin-bottom: 30px;
-  }
-
-  .hero-area {
-    padding: 290px 0px 190px;
-  }
-
-  .counter-box .myborder {
-    display: none;
-  }
-
-  .counter-section .left-info {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
-  .counter-section .l-winner-slider-wrapper {
-    margin-top: 60px;
-  }
-
-  .latest-arcive2 .l-arcive-box2 {
-    margin-top: 40px;
-  }
-
-  .header .overlay {
-    opacity: 0.8;
-  }
-
-  .games-filter .filter-wrapp {
-    display: block;
-  }
-
-  .games-filter .filter-wrapp .right-area {
-    display: block;
-    text-align: left;
-    margin-top: 20px;
-  }
-
-  .games-filter .filter-wrapp .right-area form input {
-    width: 100%;
-  }
-
-  .contact_section .left-image {
-    text-align: center;
-    margin-bottom: 50px;
-  }
-
-  .daily-contest .middle-content {
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
-
-  .t-t-s-nav {
-    text-align: left;
-    margin-top: 20px;
-  }
-
-  .turnaments-tab-section .s-top-area .t-t-s-nav ul {
-    text-align: left;
-  }
-
-  .single-turnaments {
-    display: block;
-  }
-
-  .team-section .single-team {
-    margin-bottom: 120px;
-  }
-
-  .team-section {
-    padding: 120px 0px 61px;
-  }
-
-  .join_us_new .section-heading {
-    margin-top: 40px;
-  }
-
-  .games-details-top-bar .games-d-t-b-i {
-    display: block;
-  }
-
-  .games-details-top-bar .games-d-t-b-i .right-area {
-    margin-top: 20px;
-  }
-
-  .turnaments-section .turnaments-top-section .stf {
-    display: block;
-    text-align: center;
-  }
-
-  .turnaments-section .turnaments-top-section .stf .center .time-area {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .turnaments-section .turnaments-top-section .single-turnaments .right-area .r-bottom-area2 {
-    padding-bottom: 40px;
-  }
-
-  .turnaments-section .turnaments-info .single-prize {
-    margin-bottom: 30px;
-  }
-
-  .contact-section .contact-area .left-area {
-    margin-bottom: 40px;
-  }
-
-  .breadcrumb-area.gamer-profile .bc-content {
-    padding-left: 0px;
-  }
-
-  .gamer-profile-top .gamer-profile-top-inner .profile-photo {
-    margin-top: 0px;
-    display: inline-block;
-    margin-bottom: 40px;
-  }
-
-  .gamer-profile-top .gamer-profile-top-inner {
-    justify-content: center;
-  }
-
-  .gamer-profile-top .gamer-profile-top-inner .msg-btn-wrapper {
-    margin-left: 0px;
-    margin-top: 30px;
-  }
-
-  .usermenu-section .usermenu-inner .right-area {
-    margin-top: 10px;
-  }
-
-
-}
+/*================== small mobile :320px. ===================*/
 
 @media (max-width: 767px) {
-  .wallet-box .wallet-tab-content .trns-box .trns-table-filter .single-filter{
-    margin-bottom: 15px;
-  }
-  .affiliate-box .earning-info-area .s-info{
-    width: 100%;
-  }
-  .affiliate-box .earning-info-area .s-info:first-child{
-    margin-bottom: 20px;
-  }
-  .user-main-dashboard main .main-box .header-area{
-    display: block;
-  }
-  .affiliate-box .earning-info-area .s-info{
-    display: block;
-    text-align: center;
-  }
-  .affiliate-box .earning-info-area .s-info img{
-    margin-bottom: 20px;
-    margin-right: 0px;
-  }
-  .gamer-profile-top .gamer-profile-top-inner .g-p-t-counters {
-    padding-left: 0px;
-    justify-content: center;
+	
+    * {
+        cursor: default !important
+    }
+    a, button{
+        cursor: pointer !important
+    }
+    #cursor-large{
+        display:none
+    }
+    #cursor-small{
+        display:none
+    }
+    .menu-toggle{
+        cursor: pointer !important
+    }
+    .navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-toggler{
+        padding-right: 0
+    }
+    .fag-header{
+        padding: 10px 0
+    }
+    .navbar-brand img {
+        width: 75%;
+    }
+    .dropdown-menu {
+        display: none !important;
+        background: #080811 none repeat scroll 0 0 !important
+    }
+    .dropdown-menu.show {
+        display: block !important;
+        opacity: 1 !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+    }
+    .dropdown-menu {
+        position: static !important;
+        float: none !important;
+        opacity: 1 !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        margin-left: 50px;
+        width: auto !important;
+        background: #080811 !important;
+        border-radius: 5px !important
+    }
+    nav.navbar .nav-item {
+        z-index: 1 !important;
+        display: block;
+        margin: 0 8px;
+    }
+    nav.navbar .nav-link {
+        padding: 8px 7px;
+    }
+    .header_menu{
+        margin: 0
+    }
+    .navbar-collapse{
+        background: #0d0e1b !important;
+        margin-top: 5%;
+        border-radius: 5px;
+        height: 250px;
+        overflow-y: scroll
+    }
+    .dropdown-menu:before, .dropdown-menu:after{
+        display: none !important
+    }
+    .header-right{
+        margin: 0 8px;
+        display: block
+    }
+    .header-right > div{
+        margin-left: 0 !important
+    }
+    .header-right > div > a{
+        padding: 8px 7px
+    }
+    .fag-header.scroll .header_menu > li > a, .fag-header.scroll .header-right > div > a{
+        padding: 8px 7px
+    }
+    .search-block > .search-toggle{
+        font-size: 20px;
+        right: 0
+    }
+    .search-block > form{
+        width: 90%
+    }
+    .search-block input{
+        font-size: 20px;
+        height: 50px
+    }
+    .search-block form span{
+        font-size: 20px
+    }
+    .fag-main-slide{
+        height: 480px
+    }
+    .slider-text {
+        width: 100%;
+        text-align: center;
+    }
+    .slider-text h3{
+        font-size: 24px;
+        line-height: 30px
+    }
+    .slider-text h2{
+        font-size: 38px;
+        line-height: 44px
+    }
+    .fag-slide .owl-dots {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        top: 80%;
+    }
+    .fag-slide .owl-dot{
+        display: inline-block;
+    }
+    .fag-slide .owl-dot{
+        width: 30px;
+        margin: 0 5px
+    }
+    .fag-btn-outline{
+        font-size: 18px
+    }
+    .bottom-layer{
+        bottom: -65px
+    }
+    .fag-video-inn{
+        width: 100%
+    }
+    .site-heading{
+        width: 100%
+    }
+    .site-heading h2{
+        font-size: 40px;
+        line-height: 40px
+    }
+    .site-heading h2:after{
+        margin: 0
+    }
+    .site-heading p{
+        font-size: 16px
+    }
+    .projectFilter li{
+        display: block;
+        margin: 5px 0
+    }
+    .projectFilter li a.current:after{
+        -webkit-transform: skew(0deg);
+        transform: skew(0deg);
+    }
+    .projectFilter li a:after{
+        -webkit-transform: skew(0deg);
+        transform: skew(0deg);
+    }
+    .projectFilter li a:hover:after{
+        -webkit-transform: skew(0deg);
+        transform: skew(0deg);
+    }
+    .games-item{
+        width: 100%;
+        float: none
+    }
+    .matchcountdown li{
+        min-width: 70px
+    }
+    .matchcountdown li span{
+        font-size: 22px
+    }
+    .match-box-middle {
+        margin: 30px 0;
+    }
+    .match-box-left .gamer-image, .match-box-right .gamer-image{
+        -webkit-transform: perspective(600px) rotateY(0deg);
+                transform: perspective(600px) rotateY(0deg)
+    }
+    .match-vs {
+        width: 22%;
+        margin: 22px auto 0;
+    }
+    .fag-promo-area{
+        min-height: 500px;
+    }
+    .promo-box{
+        text-align: center
+    }
+    .promo-iamge {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        opacity: .7;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    }
+    .promo-iamge img {
+        width: 100%;
+        height: 100%;
+        font-family: "object-fit: cover;";
+        z-index: -1;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    .promo-box h3{
+        font-size: 40px
+    }
+    .promo-box p{
+        font-size: 18px
+    }
+    .preorder-box h3 span, .preorder-box h3 {
+        font-size: 34px
+    }
+    .blog-text h3{
+        font-size: 26px
+    }
+    .post-small .blog-image img{
+        position: inherit
+    }
+    .post-small .blog-item{
+        display: block
+    }
+    .post-small .blog-image{
+        width: 100%
+    }
+    .post-small .blog-text {
+        width: 100%;
+        padding: 20px 0 0;
+        background: transparent;
+    }
+    .post-small .blog-text p{
+        display: block
+    }
+    .single-footer h3{
+        margin-bottom: 10px
+    }
+    .breadcromb-box h3{
+        font-size: 40px;
+        margin-bottom: 10px
+    }
+    .fag-breadcrumb-area{
+        padding: 150px 0 80px
+    }
+    .about-top{
+        width: 100%
+    }
+    .about-top h2{
+        font-size: 32px;
+        line-height: 40px
+    }
+    .about-top h2{
+        display: inline-block
+    }
+    .counter-box h3{
+        font-size: 40px
+    }
+    .single-testimonial{
+        padding: 30px
+    }
+    .single-testimonial:after{
+        top: -75px
+    }
+    .sponsor-box li {
+        width: 26%;
+        padding: 10px;
+        margin: 30px 5px 0px;
+    }
+    .games-category {
+        margin-top: 30px;
+    }
+    .details-banner-thumb img{
+        position: relative;
+        width: 100%
+    }
+    .details-banner-info {
+        margin-top: 30px;
+    }
+    .details-banner-info h3{
+        font-size: 26px
+    }
+    .single_game_price {
+        text-align: left;
+    }
+    .single_game_price h4{
+        font-size: 30px
+    }
+    .details-banner-action{
+        text-align: left
+    }
+    .tab-body h3{
+        font-size: 24px
+    }
+    .feature-image{
+        width: 60px
+    }
+    .match-list-heading h3{
+        font-size: 30px
+    }
+    .single-match-list{
+        display: block;
+        text-align: center
+    }
+    .single-match-list .match-box-left, .single-match-list .match-box-right {
+        max-width: 105px;
+        margin: 0 auto;
+    }
+    .fag-matchs-list .match-box-middle{
+        margin: 30px 0
+    }
+    .match-box-action {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .match-page-right{
+        margin-top: 30px
+    }
+    .single-match-widget h3, .single-match-widget h4{
+        font-size: 24px
+    }
+    .match-details .matchcountdown h3{
+        font-size: 32px
+    }
+    .page-404__title{
+        font-size: 80px;
+        margin-bottom: 15px
+    }
+    .socials-wrapper > p:after, .socials-wrapper > p:before{
+        width: 5%
+    }
+    .post-small .blog-image img{
+        border-radius: 18px
+    }
+    .post-small .blog-image{
+        border-radius: 18px
+    }
+    .pagination{
+        margin-top: 30px
+    }
+    .news-sidebar-item form button{
+        width: 18%
+    }
+    .destination-desc-img{
+        margin: 15px 0
+    }
+    .single-comment-box.comment_reply{
+        padding-left: 20px
+    }
+    .products-grid {
+        margin-top: 30px;
+    }
+    .product-details-text {
+        margin-top: 30px;
+    }
+    .single-shop-page-btn{
+        display: block
+    }
+    .single-shop-page-btn ul{
+        margin-left: 0;
+        margin-top: 30px
+    }
+    .product-panel-list .fag-comment-list, .product-panel-list .fag-leave-comment{
+        width: 100%
+    }
+    .order-summury-box {
+        margin-top: 50px;
+    }
+    .checkout-left-box form .checkout-form{
+        margin-top: 0px
+    }
+    .checkout-left-box form .checkout-form .col-md-6, .checkout-left-box form .checkout-form .col-md-12 {
+        margin-top: 15px;
+    }
+    .contact-form-inn{
+        width: 100%
+    }
+    .comment-field {
+        margin-top: 15px;
+    }
+    .matchcountdown ul{
+        display: none;
+    }
+    .matchcountdown p{
+        display: block
+    }
 }
-  .gamer-profile-top .gamer-profile-top-inner .g-p-t-counters .g-p-t-single-counter{
-    margin: 7px;
-  }
-  .breadcrumb-area.gamer-profile .bc-content{
-    display: block;
-  }
-  .single-turnaments .left-area .single-play {
-    width: 100%;
-  }
 
-  .turnaments-section .turnaments-top-section .single-turnaments .right-area .r-bottom-area2 ul li::before {
-    display: none;
-  }
 
-  .turnaments-section .turnaments-top-section .single-turnaments .right-area .r-bottom-area2 ul li {
-    margin-right: 50px;
-  }
+/* ======================Large Mobile :480px.================== */
 
-  .turnaments-section .turnaments-info .single-prize {
-    text-align: center;
-  }
-
-  .breadcrumb-area.turnaments {
-    height: 420px;
-  }
-
-  .games-filter .filter-wrapp .left-area .mybtn2 {
-    margin: 4px;
-  }
-
-  .hero-area .left-content .content .title {
-    font-size: 50px;
-    line-height: 60px;
-  }
-
-  .hero-area .left-content .content .subtitle {
-    font-size: 24px;
-    line-height: 34px;
-  }
-
-  .hero-area .left-content .content .text {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .counter-section .counter-box {
-    justify-content: center;
-    text-align: center;
-  }
-
-  .counter-box .content {
-    flex: none;
-  }
-
-  .subscribe-box .form-area .mybtn1 {
-    position: unset;
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .subscribe-box .form-area input {
-    padding: 0px 30px 0px 30px;
-  }
-
-  .footer .footer-menu ul li {
-    margin-right: 20px;
-  }
-
-  .footer .footer-menu ul li::after {
-    display: none;
-  }
-
-  .latest-arcive2 .l-arcive-box2-wrapper {
-    overflow-x: auto;
-  }
-
-  .latest-arcive2 .l-arcive-box2 {
-
-    width: 520px;
-  }
-
-  .couser-section2 .scounter2 {
-    text-align: center;
-  }
-
-  .raffle-filter .short-by {
-    width: 100%;
-    text-align: left;
-    margin-top: 20px;
-  }
-
-  .single-turnaments .right-area .r-bottom-area {
-    display: block;
-    padding-bottom: 30px;
-  }
-
-  .team-section .single-team .image .shape {
-    width: auto;
-  }
-
-  .team-section .single-team .image {
-    text-align: center;
-  }
-
-  .games-details .details-wrapper .right-content .price-box {
-    width: 100%;
-    margin-left: 0px;
-  }
-
-  .games-details .details-wrapper .left-content {
-    display: block;
-  }
-
-  .games-details .details-wrapper .left-content .ll-content {
-    margin-right: 0px;
-    margin-bottom: 40px;
-  }
-
-  .games-details .details-wrapper .left-content .lr-content h3 {
-    font-size: 34px;
-    line-height: 44px;
-  }
-
-  .games-details .details-wrapper {
-    padding: 60px 30px 60px;
-  }
-
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+    * {
+        cursor: default !important
+    }
+    a, button{
+        cursor: pointer !important
+    }
+    #cursor-large{
+        display:none
+    }
+    #cursor-small{
+        display:none
+    }
+    .menu-toggle{
+        cursor: pointer !important
+    }
+    .navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-toggler{
+        padding-right: 0
+    }
+    .fag-header{
+        padding: 10px 0
+    }
+    .navbar-brand img {
+        width: 75%;
+    }
+    .dropdown-menu {
+        display: none !important;
+        background: #080811 none repeat scroll 0 0 !important
+    }
+    .dropdown-menu.show {
+        display: block !important;
+        opacity: 1 !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+    }
+    .dropdown-menu {
+        position: static !important;
+        float: none !important;
+        opacity: 1 !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        margin-left: 50px;
+        width: auto !important;
+        background: #080811 !important;
+        border-radius: 5px !important
+    }
+    nav.navbar .nav-item {
+        z-index: 1 !important;
+        display: block;
+        margin: 0 8px;
+    }
+    nav.navbar .nav-link {
+        padding: 8px 7px;
+    }
+    .header_menu{
+        margin: 0
+    }
+    .navbar-collapse{
+        background: #0d0e1b !important;
+        margin-top: 5%;
+        border-radius: 5px;
+        height: 250px;
+        overflow-y: scroll
+    }
+    .dropdown-menu:before, .dropdown-menu:after{
+        display: none !important
+    }
+    .header-right{
+        margin: 0 8px;
+        display: block
+    }
+    .header-right > div{
+        margin-left: 0 !important
+    }
+    .header-right > div > a{
+        padding: 8px 7px
+    }
+    .fag-header.scroll .header_menu > li > a, .fag-header.scroll .header-right > div > a{
+        padding: 8px 7px
+    }
+    .search-block > .search-toggle{
+        font-size: 20px;
+        right: 0
+    }
+    .search-block > form{
+        width: 90%
+    }
+    .search-block input{
+        font-size: 20px;
+        height: 50px
+    }
+    .search-block form span{
+        font-size: 20px
+    }
+    .fag-main-slide{
+        height: 480px
+    }
+    .slider-text {
+        width: 100%;
+        text-align: center;
+    }
+    .slider-text h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .slider-text h2 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+    .fag-slide .owl-dots {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        top: 80%;
+    }
+    .fag-slide .owl-dot{
+        display: inline-block;
+    }
+    .fag-slide .owl-dot{
+        width: 30px;
+        margin: 0 5px
+    }
+    .fag-btn-outline{
+        font-size: 18px
+    }
+    .bottom-layer{
+        bottom: -65px
+    }
+    .fag-video-inn{
+        width: 100%
+    }
+    .site-heading{
+        width: 100%
+    }
+    .site-heading h2{
+        font-size: 40px;
+        line-height: 40px
+    }
+    .site-heading h2:after{
+        margin: 0
+    }
+    .site-heading p{
+        font-size: 16px
+    }
+    .projectFilter li{
+        display: block;
+        margin: 5px 0
+    }
+    .projectFilter li a.current:after{
+        -webkit-transform: skew(0deg);
+        transform: skew(0deg);
+    }
+    .projectFilter li a:after{
+        -webkit-transform: skew(0deg);
+        transform: skew(0deg);
+    }
+    .projectFilter li a:hover:after{
+        -webkit-transform: skew(0deg);
+        transform: skew(0deg);
+    }
+    .games-item{
+        width: 100%;
+        float: none
+    }
+    .matchcountdown li{
+        min-width: 70px
+    }
+    .matchcountdown li span{
+        font-size: 22px
+    }
+    .match-box-middle {
+        margin: 30px 0;
+    }
+    .match-box-left .gamer-image, .match-box-right .gamer-image{
+        -webkit-transform: perspective(600px) rotateY(0deg);
+                transform: perspective(600px) rotateY(0deg)
+    }
+    .match-vs {
+        width: 22%;
+        margin: 22px auto 0;
+    }
+    .fag-promo-area{
+        min-height: 500px;
+    }
+    .promo-box{
+        text-align: center
+    }
+    .promo-iamge {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        opacity: .7;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    }
+    .promo-iamge img {
+        width: 100%;
+        height: 100%;
+        font-family: "object-fit: cover;";
+        z-index: -1;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    .promo-box h3{
+        font-size: 40px
+    }
+    .promo-box p{
+        font-size: 18px
+    }
+    .preorder-box h3 span, .preorder-box h3 {
+        font-size: 34px
+    }
+    .blog-text h3{
+        font-size: 26px
+    }
+    .post-small .blog-image img{
+        position: inherit
+    }
+    .post-small .blog-item{
+        display: block
+    }
+    .post-small .blog-image{
+        width: 100%
+    }
+    .post-small .blog-text {
+        width: 100%;
+        padding: 20px 0 0;
+        background: transparent;
+    }
+    .post-small .blog-text p{
+        display: block
+    }
+    .single-footer h3{
+        margin-bottom: 10px
+    }
+    .breadcromb-box h3{
+        font-size: 40px;
+        margin-bottom: 10px
+    }
+    .fag-breadcrumb-area{
+        padding: 150px 0 80px
+    }
+    .about-top{
+        width: 100%
+    }
+    .about-top h2{
+        font-size: 32px;
+        line-height: 40px
+    }
+    .about-top h2{
+        display: inline-block
+    }
+    .counter-box h3{
+        font-size: 40px
+    }
+    .single-testimonial{
+        padding: 30px
+    }
+    .single-testimonial:after{
+        top: -75px
+    }
+    .sponsor-box li {
+        width: 26%;
+        padding: 10px;
+        margin: 30px 5px 0px;
+    }
+    .games-category {
+        margin-top: 30px;
+    }
+    .details-banner-thumb img{
+        position: relative;
+        width: 100%
+    }
+    .details-banner-info {
+        margin-top: 30px;
+    }
+    .details-banner-info h3{
+        font-size: 26px
+    }
+    .single_game_price {
+        text-align: left;
+    }
+    .single_game_price h4{
+        font-size: 24px
+    }
+    .single_game_price p{
+        font-size: 16px !important
+    }
+    .details-banner-action{
+        margin: 20px 0 0
+    }
+    .game-price.single_game_price {
+        margin-top: 20px;
+    }
+    .details-banner-action{
+        text-align: left
+    }
+    .tab-body h3{
+        font-size: 24px
+    }
+    .feature-image{
+        width: 60px
+    }
+    .match-list-heading h3{
+        font-size: 30px
+    }
+    .single-match-list{
+        display: block;
+        text-align: center
+    }
+    .single-match-list .match-box-left, .single-match-list .match-box-right {
+        max-width: 105px;
+        margin: 0 auto;
+    }
+    .fag-matchs-list .match-box-middle{
+        margin: 30px 0
+    }
+    .match-box-action {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .match-page-right{
+        margin-top: 30px
+    }
+    .single-match-widget h3, .single-match-widget h4{
+        font-size: 24px
+    }
+    .match-details .matchcountdown h3{
+        font-size: 32px
+    }
+    .page-404__title{
+        font-size: 80px;
+        margin-bottom: 15px
+    }
+    .socials-wrapper > p:after, .socials-wrapper > p:before{
+        width: 5%
+    }
+    .post-small .blog-image img{
+        border-radius: 18px
+    }
+    .post-small .blog-image{
+        border-radius: 18px
+    }
+    .pagination{
+        margin-top: 30px
+    }
+    .news-sidebar-item form button{
+        width: 11%
+    }
+    .destination-desc-img{
+        margin: 15px 0
+    }
+    .single-comment-box.comment_reply{
+        padding-left: 20px
+    }
+    .products-grid {
+        margin-top: 30px;
+    }
+    .product-details-text {
+        margin-top: 30px;
+    }
+    .single-shop-page-btn{
+        display: block
+    }
+    .single-shop-page-btn ul{
+        margin-left: 0;
+        margin-top: 30px
+    }
+    .product-panel-list .fag-comment-list, .product-panel-list .fag-leave-comment{
+        width: 100%
+    }
+    .order-summury-box {
+        margin-top: 50px;
+    }
+    .checkout-left-box form .checkout-form{
+        margin-top: 0px
+    }
+    .checkout-left-box form .checkout-form .col-md-6, .checkout-left-box form .checkout-form .col-md-12 {
+        margin-top: 15px;
+    }
+    .contact-form-inn{
+        width: 100%
+    }
+    .comment-field {
+        margin-top: 15px;
+    }
+    .match-box-inn{
+        width: 100%
+    }
+    .login_user{
+        display: none
+    }
+    .matchcountdown ul{
+        display: flex;
+    }
+    .matchcountdown p{
+        display: none
+    }
 }
 
-
-@media (max-width: 575px) {
-  #gamer-chat .modal-content .modal-body .p-chat-box .chat-container {
-    width: 100%;
-    height: auto;
-}
-  .user-main-dashboard main .main-box.u-setting-area  .s-content-area .table-responsive table {
-    width: 500px;
-    margin: 0 auto;
-  }
-  .card.card-chart .btn-group{
-    width: 100%;
-  }
-
-  .breadcrumb-area.turnaments2 {
-    height: 440px;
-  }
-
-  .raffle-d-top-info h5 {
-    font-size: 18px;
-    line-height: 25px;
-  }
-
-  .about-section .left-content .content-list .s-list {
-    margin-bottom: 20px;
-  }
-
-  .about-section .ar {
-    max-width: 100%;
-  }
-
-  .lottery-area .daily-lottery .draw-time .subtitle {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .help-section.writter-artical-details .help-box .help-box-inner2 .single-artical .inner-content p {
-    font-size: 20px;
-    font-weight: 300;
-  }
-
-  .help-section .help-box .help-box-inner3-hearer .title,
-  .help-section.writter-artical-details .help-box .help-box-inner2 .single-artical .top-title {
-    font-size: 24px;
-    line-height: 34px;
-  }
-
-  .breadcrumb-area .title {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .header .mainmenu-area.mainmenu-area2 .navbar .navbar-brand img {
-    max-height: 50px;
-  }
-
-  .breadcrumb-area h2 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .breadcrumb-area .breadcrumb-list li a {
-    font-size: 16px;
-    line-height: 26px;
-  }
-
-  .breadcrumb-area {
-    padding: 200px 0px 55px;
-  }
-
-  .hero-area.hero-text .content .title {
-    font-size: 70px;
-    -webkit-text-stroke: 2px #fb3ab4;
-    -moz-text-stroke: 2px #fb3ab4;
-    margin-bottom: 25px;
-  }
-
-
-}
-
-
-
-@media (max-width: 500px) {
-  .latest-arcive2 .nav li a {
-    margin: 4px;
-  }
-}
-
-
-@media (max-width: 469px) {}
-
-
-@media (max-width: 414px) {
-  .hero-area.hero-text .content .content .subtitle {
-    margin-bottom: 20px;
-  }
-
-  .hero-area.hero-text .content .title {
-    font-size: 45px;
-    line-height: 55px;
-    -webkit-text-stroke: 1px #fb3ab4;
-    -moz-text-stroke: 1px #fb3ab4;
-  }
-
-  .ticket-page .number-box .top-menu {
-    display: block;
-  }
-
-  .breadcrumb-area {
-    padding: 205px 0px 55px;
-  }
-
-  .header .top-header .content .left-content .left-list li {
-    margin-right: 15px;
-  }
-
-  .header .top-header .content .left-content .left-list li::before {
-    right: -14px;
-  }
-
-  .sh-wrpper {
-    display: block;
-  }
-
-  .sh-wrpper img {
-    margin-right: 0px;
-    margin-bottom: 30px;
-  }
-
-  .hero-area .content .content .subtitle {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .hero-area {
-    padding: 240px 0px 130px;
-  }
-
-  .counter-box .image img {
-    width: 100px;
-    margin-right: 10px;
-  }
-
-  .subscribe-box .heading-area .title {
-    font-size: 28px;
-    line-height: 38px;
-  }
-
-  .latest-arcive2 .l-a-nav .left-content ul li .info-box img {
-    width: 80px;
-    margin-right: 15px;
-  }
-
-  .recent-winners .top-section a {
-    width: 100px;
-  }
-
-  .daily-contest .left-content .images img {
-    max-width: 100px;
-  }
-
-  .l-winner-slider-wrapper .owl-carousel .owl-item {
-    text-align: center;
-    display: block;
-  }
-
-  .l-winner-slider-wrapper .owl-carousel .owl-item .s-item {
-    display: inline-block;
-  }
-
-  .turnaments-tab-section .s-top-area .t-t-s-nav ul li a {
-    margin: 4px;
-  }
-
-  .single-turnaments .left-area .single-play {
-    width: 100%;
-  }
-
-  .single-turnaments .left-area {
-    padding: 40px 30px;
-  }
-
-  .raffles-details .raffles-ends-box .counter-area .c p {
-    font-size: 24px;
-  }
-
-  .games-details-top-bar .games-d-t-b-i .left-area {
-    display: block;
-  }
-
-  .games-details-top-bar .games-d-t-b-i .left-area .mybtn2 {
-    margin-top: 15px;
-  }
-
-  .games-details .details-wrapper .left-content .ll-content {
-    width: 100%;
-
-  }
-
-  .turnaments-section .turnaments-top-section .single-turnaments .right-area .r-bottom-area2 ul li {
-    margin-bottom: 20px;
-  }
-
-  .contact-section .contact-area h2,
-  .contact-section .contact-area .right-area .top-content h4 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .contact-section .contact-area .right-area .bottom-content .single-info .content h4 {
-    font-size: 20px;
-  }
-
-  .hero-area .content .content .subtitle {
-    font-size: 30px;
-    line-height: 40px;
-    margin-bottom: -8px;
-  }
-
-  .mybtn1 {
-    font-size: 16px;
-    box-shadow: inset 0px 0px 6px 3px #fea036;
-    padding: 10px 20px;
-  }
-
-}
-
-
-@media (max-width: 390px) {
-  .breadcrumb-area.gamer-profile .bc-content .right ul li img,
-  .breadcrumb-area.gamer-profile .bc-content .right ul li span
-   {
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-}
-}
-
-
-@media (max-width: 343px) {}
